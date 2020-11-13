@@ -22,17 +22,17 @@ octochart
 
 ## Design
 
-* **assets  
+* __assets  
   * style.css #CSS-File for the Dash-Layout  
-* **data  
-  * **pickle  
+* __data  
+  * __pickle  
     * world_info.p #location of precomputed figure  
-  * **raw
+  * __raw
     * measles,rubella.xls #location of downloaded data files  
     * iso3coords.csv #file for convert ISO3 Country Codes to Latitude and Longitude  
-* **docs
+* __docs
   * installation.md #textfile for installation of this software
-* **scripts  
+* __scripts  
   * create_fig.py #build the figure and save it as pickle  
   * utils.py #pickle managment, read config file  
 * app.py #Dash-App load precomputed pickle-file in an HTML file  
