@@ -22,11 +22,11 @@ If it builds correctly, you will see something like this in your Terminal:
 `*Dash is running on http://127.0.0.1:8050/*`  
 Now you can open your Browser an visit your localhost.  
 
-2. Optional (Update the data and figure in create_dataset.py)  
+2. (Optional) Update the data and figure in create_dataset.py  
 `python /scripts/create_dataset.py`
 or simply use update_fig.sh
 
-3. Optional (Offline Mode)  
+3. (Optional) Offline Mode 
 uncomment dataset paths in scripts/create_dataset.py  
     `raw_dataset_path_rubella = f.RAW_PATH + f.parser['path']['rubella']`  
     `raw_dataset_path_measles = f.RAW_PATH + f.parser['path']['measles']`  
