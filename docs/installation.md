@@ -45,7 +45,6 @@ Heroku is an simple platform for that deployment method.
 
 This example requires also a Heroku account, git, and virtualenv.  
 0. Install heroku, git and virtualenv on your system.  
-
 1. Create a new folder for your project.  
 `mkdir dash_app_example`  
 `cd dash_app_example`  
