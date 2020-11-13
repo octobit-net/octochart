@@ -20,6 +20,28 @@ octochart
 
 `./requirements.txt`
 
+## Design
+
+* **assets  
+  * style.css #CSS-File for the Dash-Layout  
+* **data  
+  * **pickle  
+    * world_info.p #location of precomputed figure  
+  * **raw
+    * measles,rubella.xls #location of downloaded data files  
+    * iso3coords.csv #file for convert ISO3 Country Codes to Latitude and Longitude  
+* **docs
+  * installation.md #textfile for installation of this software
+* **scripts  
+  * create_fig.py #build the figure and save it as pickle  
+  * utils.py #pickle managment, read config file  
+* app.py #Dash-App load precomputed pickle-file in an HTML file  
+* config.ini #location of paths  
+* Procfile #declaring command for heroku  
+* requirements.txt #software bibs used  
+* update_data.sh #Shell-Script for Update the Data (only necessary when offline)  
+* update_fig.sh #Shell-Script for Update the Figure  
+
 ## Data
 
 - [measles dataset](https://www.who.int/immunization/monitoring_surveillance/burden/vpd/rubellacasesbycountrybymonth.xls?ua=1)
