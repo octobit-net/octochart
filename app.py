@@ -1,6 +1,5 @@
 # Classic libraries
 import os
-import numpy as np
 import pandas as pd
 
 # Dash imports

@@ -113,4 +113,4 @@ if __name__ =="__main__":
     f.save_pickle(save, 'world_info.p')
 
     # Display Map directly
-    fig_world.show()
+    #fig_world.show()
