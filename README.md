@@ -22,8 +22,8 @@ octochart
 
 ## Design
 
-* __assets  
-  * style.css #CSS-File for the Dash-Layout  
+* _assets  
+  * style.css >CSS-File for the Dash-Layout  
 * __data  
   * __pickle  
     * world_info.p #location of precomputed figure  
