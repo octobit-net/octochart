@@ -1,7 +1,8 @@
-# dash-mapbox
+# Diseases - World Cases
 
-A Map showing Diseases around the World.
+A Dash Map showing Diseases around the World.
 App available on Heroku [here](https://octochart.herokuapp.com/)
+Students Projectwork at TH-Bingen (Germany).
 
 ## Author
 
