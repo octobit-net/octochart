@@ -88,11 +88,11 @@ def create_fig(df_diseases):
 if __name__ =="__main__":  
     # Load necessary information
         #online
-    raw_dataset_path_measles = 'https://www.who.int/immunization/monitoring_surveillance/burden/vpd/measlescasesbycountrybymonth.xls?ua=1'
-    raw_dataset_path_rubella = 'https://www.who.int/immunization/monitoring_surveillance/burden/vpd/rubellacasesbycountrybymonth.xls?ua=1'
+    #raw_dataset_path_measles = 'https://www.who.int/immunization/monitoring_surveillance/burden/vpd/measlescasesbycountrybymonth.xls?ua=1'
+    #raw_dataset_path_rubella = 'https://www.who.int/immunization/monitoring_surveillance/burden/vpd/rubellacasesbycountrybymonth.xls?ua=1'
         #offline
-    #raw_dataset_path_rubella = f.RAW_PATH + f.parser['path']['rubella']
-    #raw_dataset_path_measles = f.RAW_PATH + f.parser['path']['measles']
+    raw_dataset_path_rubella = f.RAW_PATH + f.parser['path']['rubella']
+    raw_dataset_path_measles = f.RAW_PATH + f.parser['path']['measles']
     raw_dataset_path_iso3_coord = f.RAW_PATH + f.parser['path']['iso3coord'] #iso3-country code to lat,lon - file
 
     # Load datasets
@@ -113,4 +113,4 @@ if __name__ =="__main__":
     f.save_pickle(save, 'world_info.p')
 
     # Display Map directly
-    #fig_world.show()
+    fig_world.show()
