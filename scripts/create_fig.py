@@ -50,10 +50,9 @@ def create_fig(df_diseases):
         # define the traces
         color="disease",
         # define the information which will be shown
-        hover_data=[
-                     "country","value"# value instead of size
-                      # because the information given could also be 'nan' instead of 0
-                 ],
+        hover_name="country",
+        hover_data={'lon':False,'lat':False,'size':False,'value':True,'date':False},
+                     #value instead of size because the information given could also be 'nan' instead of 0
         # compute the sizes         
         size="size",
         # set the data for the slider
@@ -68,6 +67,11 @@ def create_fig(df_diseases):
         )
     # optimize the layout of the scatter_mapbox    
     fig.update_layout(
+        hoverlabel=dict(
+            font_size=16,
+            font_family="Rockwell"
+        ),
+        hoverlabel_align = 'right',
         # set layout of the figure to display
         margin={"r":0,"t":0,"l":0,"b":0},
         autosize=True,
